@@ -1,0 +1,30 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract vicky{
+
+    //uint[10] public nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+    uint[10] public mike = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+    //dynamic array
+
+    uint[] public dynamicArray = [1, 2, 3, 4, 5, 6,7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+
+    //array of struct
+
+    struct Winner{
+
+        uint age;
+        string name;
+    }
+
+    uint[] public vick = [1, 2, 3];
+
+    //struct-name[] array-name;
+
+    Winner[] victoria;
+
+
+
+}
